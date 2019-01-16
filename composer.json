@@ -1,0 +1,33 @@
+{
+    "name": "polass/temporary-file",
+    "description": "Temporary file is deleted as the application terminates",
+    "type": "library",
+    "homepage": "https://github.com/polass/temporary-file",
+    "keywords": [ "file", "tmpfile" ],
+    "authors": [
+        {
+            "name": "Salop, Inc.",
+            "homepage": "http://www.salop.co.jp/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polass\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Polass\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT"
+}
